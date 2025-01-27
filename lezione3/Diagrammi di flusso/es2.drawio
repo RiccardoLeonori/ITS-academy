@@ -1,0 +1,146 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.7">
+  <diagram name="Pagina-1" id="Cg7cmIv5uZo0pEfmt5kx">
+    <mxGraphModel dx="1500" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v6CaPh9-n6L4ca_TVWtm-1" target="v6CaPh9-n6L4ca_TVWtm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-1" value="START" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v6CaPh9-n6L4ca_TVWtm-2" target="v6CaPh9-n6L4ca_TVWtm-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-2" value="READ N-S, E-O" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v6CaPh9-n6L4ca_TVWtm-4" target="v6CaPh9-n6L4ca_TVWtm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-8" value="FALSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="v6CaPh9-n6L4ca_TVWtm-7">
+          <mxGeometry x="-0.155" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v6CaPh9-n6L4ca_TVWtm-4" target="v6CaPh9-n6L4ca_TVWtm-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-11" value="TRUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="v6CaPh9-n6L4ca_TVWtm-10">
+          <mxGeometry x="-0.4978" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-4" value="N-S &amp;gt; SOGLIA" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="601" y="320" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v6CaPh9-n6L4ca_TVWtm-6" target="v6CaPh9-n6L4ca_TVWtm-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-19" value="TRUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="v6CaPh9-n6L4ca_TVWtm-16">
+          <mxGeometry x="-0.1822" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v6CaPh9-n6L4ca_TVWtm-6" target="v6CaPh9-n6L4ca_TVWtm-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-31" value="FALSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="v6CaPh9-n6L4ca_TVWtm-21">
+          <mxGeometry x="-0.3709" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-6" value="E-O &amp;gt; SOGLIA" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="811" y="320" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="v6CaPh9-n6L4ca_TVWtm-9" target="v6CaPh9-n6L4ca_TVWtm-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="664.4285714285716" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="665" y="720" />
+              <mxPoint x="748" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-9" value="TEMPO VERDE N-S =60%, TEMPO VERDE E-O = 40%" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="586.25" y="490" width="157.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="v6CaPh9-n6L4ca_TVWtm-15" target="v6CaPh9-n6L4ca_TVWtm-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="876" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="876" y="724" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-15" value="TEMPO VERDE E-O = 60%, TEMPO VERDE N-S = 40%" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="793.5" y="490" width="165" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-20" value="TEMPO VERDE N-S = (N-S/TOTALE) 100&lt;div&gt;TEMPO VERDE E-O = 100% - TEMPO VERDE N-S&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1021" y="490" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v6CaPh9-n6L4ca_TVWtm-22" target="v6CaPh9-n6L4ca_TVWtm-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-22" value="READ SOGLIA" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-25" value="END" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="698.75" y="960" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="v6CaPh9-n6L4ca_TVWtm-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1176" y="550" as="sourcePoint" />
+            <mxPoint x="1176.0000000000005" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1180" y="551" />
+              <mxPoint x="1180" y="735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v6CaPh9-n6L4ca_TVWtm-32" target="v6CaPh9-n6L4ca_TVWtm-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-35" value="FALSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="v6CaPh9-n6L4ca_TVWtm-34">
+          <mxGeometry x="0.1047" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="v6CaPh9-n6L4ca_TVWtm-32" target="v6CaPh9-n6L4ca_TVWtm-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-32" value="N-S &amp;gt; SOGLIA AND&lt;div&gt;E-O &amp;gt; SOGLIA&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="319" y="320" width="189" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v6CaPh9-n6L4ca_TVWtm-38" target="v6CaPh9-n6L4ca_TVWtm-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="413.4285714285718" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="414" y="735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-38" value="TEMPO VERDE N-S =50%, TEMPO VERDE E-O = 50%" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335.25" y="490" width="157.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v6CaPh9-n6L4ca_TVWtm-42" target="v6CaPh9-n6L4ca_TVWtm-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-42" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="743.75" y="720" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="v6CaPh9-n6L4ca_TVWtm-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="758.75" y="909.9999999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v6CaPh9-n6L4ca_TVWtm-48" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;WRITE TEMPO VERDE N-S&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;TEMPO VERDE E-O&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="658.13" y="850" width="201.25" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

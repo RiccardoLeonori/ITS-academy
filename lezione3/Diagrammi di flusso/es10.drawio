@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.9">
+  <diagram name="Pagina-1" id="7IrSH12CxB6FXi7TYRG6">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7CBFxUPKqPaveGyjXQLJ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7CBFxUPKqPaveGyjXQLJ-1" target="7CBFxUPKqPaveGyjXQLJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7CBFxUPKqPaveGyjXQLJ-1" value="START" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7CBFxUPKqPaveGyjXQLJ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7CBFxUPKqPaveGyjXQLJ-2" target="7CBFxUPKqPaveGyjXQLJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7CBFxUPKqPaveGyjXQLJ-2" value="READ ETA&#39;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7CBFxUPKqPaveGyjXQLJ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7CBFxUPKqPaveGyjXQLJ-4" target="7CBFxUPKqPaveGyjXQLJ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7CBFxUPKqPaveGyjXQLJ-15" value="TRUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7CBFxUPKqPaveGyjXQLJ-11">
+          <mxGeometry x="-0.2104" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7CBFxUPKqPaveGyjXQLJ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7CBFxUPKqPaveGyjXQLJ-4" target="7CBFxUPKqPaveGyjXQLJ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7CBFxUPKqPaveGyjXQLJ-14" value="FALSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7CBFxUPKqPaveGyjXQLJ-13">
+          <mxGeometry x="-0.21" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7CBFxUPKqPaveGyjXQLJ-4" value="ETA&#39; &amp;gt; 18 AND ETA&#39; &amp;lt;65" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="320" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7CBFxUPKqPaveGyjXQLJ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7CBFxUPKqPaveGyjXQLJ-10" target="7CBFxUPKqPaveGyjXQLJ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7CBFxUPKqPaveGyjXQLJ-10" value="WRITE &quot;L&#39;UTENTE PUO&#39; PARTECIPARE" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="330" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7CBFxUPKqPaveGyjXQLJ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7CBFxUPKqPaveGyjXQLJ-12" target="7CBFxUPKqPaveGyjXQLJ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7CBFxUPKqPaveGyjXQLJ-18" value="TRUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7CBFxUPKqPaveGyjXQLJ-17">
+          <mxGeometry x="-0.2044" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7CBFxUPKqPaveGyjXQLJ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7CBFxUPKqPaveGyjXQLJ-12" target="7CBFxUPKqPaveGyjXQLJ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7CBFxUPKqPaveGyjXQLJ-21" value="FALSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7CBFxUPKqPaveGyjXQLJ-20">
+          <mxGeometry x="-0.4996" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7CBFxUPKqPaveGyjXQLJ-12" value="ETA&#39; &amp;lt; 18" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="320" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7CBFxUPKqPaveGyjXQLJ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7CBFxUPKqPaveGyjXQLJ-16" target="7CBFxUPKqPaveGyjXQLJ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7CBFxUPKqPaveGyjXQLJ-16" value="WRITE &quot;NON HA L&#39;ETA&#39; MINIMA CONSENTITA&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="490" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7CBFxUPKqPaveGyjXQLJ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7CBFxUPKqPaveGyjXQLJ-19" target="7CBFxUPKqPaveGyjXQLJ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7CBFxUPKqPaveGyjXQLJ-19" value="WRITE &quot;HA SUPERATO L&#39;ETA&#39; MASSIMA CONSENTITA" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="490" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7CBFxUPKqPaveGyjXQLJ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7CBFxUPKqPaveGyjXQLJ-22" target="7CBFxUPKqPaveGyjXQLJ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7CBFxUPKqPaveGyjXQLJ-22" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="354" y="650" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7CBFxUPKqPaveGyjXQLJ-28" value="END" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="304" y="720" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
