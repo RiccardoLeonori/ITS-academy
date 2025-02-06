@@ -57,13 +57,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mt7ypALe2cK8DgjnzIch-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mt7ypALe2cK8DgjnzIch-11" target="Mt7ypALe2cK8DgjnzIch-25">
+        <mxCell id="Mt7ypALe2cK8DgjnzIch-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mt7ypALe2cK8DgjnzIch-11" target="Mt7ypALe2cK8DgjnzIch-28">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Mt7ypALe2cK8DgjnzIch-27" value="FALSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mt7ypALe2cK8DgjnzIch-26">
-          <mxGeometry x="-0.17" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="Mt7ypALe2cK8DgjnzIch-11" value="N % 2 == 0&lt;div&gt;AND&lt;/div&gt;&lt;div&gt;N &amp;gt; MEDIA&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="1030" width="110" height="80" as="geometry" />
@@ -92,25 +87,6 @@
         <mxCell id="Mt7ypALe2cK8DgjnzIch-23" value="I += 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="355" y="1260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Mt7ypALe2cK8DgjnzIch-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mt7ypALe2cK8DgjnzIch-25" target="Mt7ypALe2cK8DgjnzIch-28">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Mt7ypALe2cK8DgjnzIch-34" value="TRUE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mt7ypALe2cK8DgjnzIch-29">
-          <mxGeometry x="-0.392" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Mt7ypALe2cK8DgjnzIch-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mt7ypALe2cK8DgjnzIch-25" target="Mt7ypALe2cK8DgjnzIch-32">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Mt7ypALe2cK8DgjnzIch-35" value="FALSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Mt7ypALe2cK8DgjnzIch-33">
-          <mxGeometry x="-0.12" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Mt7ypALe2cK8DgjnzIch-25" value="N % 2 == 1&lt;div&gt;OR&lt;/div&gt;&lt;div&gt;N &amp;lt; MEDIA&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="1030" width="110" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="Mt7ypALe2cK8DgjnzIch-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mt7ypALe2cK8DgjnzIch-28" target="Mt7ypALe2cK8DgjnzIch-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -122,18 +98,6 @@
         </mxCell>
         <mxCell id="Mt7ypALe2cK8DgjnzIch-30" value="I += 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="145" y="1260" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Mt7ypALe2cK8DgjnzIch-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Mt7ypALe2cK8DgjnzIch-32" target="Mt7ypALe2cK8DgjnzIch-36">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Mt7ypALe2cK8DgjnzIch-32" value="WRITE &quot;HAI INSERITO UN NUMERO PARI NON MAGGIORE DELLA MEDIA (IN QUESTO MOMENTO), PER QUESTO NON VERRà CALCOLATO" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="-260" y="1020" width="360" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="Mt7ypALe2cK8DgjnzIch-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mt7ypALe2cK8DgjnzIch-36" target="Mt7ypALe2cK8DgjnzIch-38">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Mt7ypALe2cK8DgjnzIch-36" value="I += 1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-140" y="1260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Mt7ypALe2cK8DgjnzIch-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mt7ypALe2cK8DgjnzIch-38" target="Mt7ypALe2cK8DgjnzIch-6">
           <mxGeometry relative="1" as="geometry">
