@@ -8,6 +8,7 @@ se l'utente inserisce "visualizza", mostra il numero dei posti liberi e il numer
 se l'utente inserisce "esci", termina l'algoritmo.
 Torna all'inserimento di una opzione finché l'utente non seleziona "esci".'''
 
+'''
 liberi = 20
 
 while True:
@@ -28,4 +29,27 @@ while True:
     elif opzione == "esci":
         break
     else:
-        print("Inserisci un opzione valida")
+        print("Inserisci un opzione valida")'''
+
+liberi = 20
+while True:
+    opzione = str(input("Cosa vuoi fare? (prenota/libera/visualizza/esci): ")).lower()
+
+    match opzione:
+        case opzione if opzione == "prenota":
+            if liberi > 0:
+                liberi -= 1
+            else:
+                print("Non ci sono posti disponibili")
+        case opzione if opzione == "libera":
+            if liberi < 20:
+                liberi += 1
+            else:
+                print("Tutti i posti sono già disponibili")
+        case opzione if opzione == "visualizza":
+            print(f"I posti liberi sono {liberi}")
+            print(f"I posti occupati sono {20 - liberi}")
+        case opzione if opzione == "esci":
+            break
+        case _:
+            print("Inserisci un opzione valida")
