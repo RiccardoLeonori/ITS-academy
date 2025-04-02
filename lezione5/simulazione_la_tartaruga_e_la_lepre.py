@@ -49,6 +49,9 @@ def gara():
     posizione_tartaruga = 1
     posizione_lepre = 1
 
+    tabellone = ("_ " * 70)
+
     print("BANG !!!!! AND THEY'RE OFF !!!!!")
+
 
 print(tartaruga(4))
