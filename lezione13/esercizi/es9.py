@@ -5,5 +5,14 @@ restituisca sotto forma di una nuova stringa la stringa originale ma senza le vo
 Suggerimento: utilizzare l'operatore + per realizzare la concatenazione di stringhe al fine di costruire la stringa da restituire.'''
 
 
-def vowelRemover():
-    pass
+def vowelRemover(s:str) -> str:
+    if s == "":
+        return ""
+    if s[0].lower() in ["a", "e", "i", "o", "u"]:
+        return vowelRemover(s[1:])
+    else:
+        return s[0] + vowelRemover(s[1:])
+    
+
+print(vowelRemover("Ciao"))
+print(vowelRemover("Ciao mondo!"))
