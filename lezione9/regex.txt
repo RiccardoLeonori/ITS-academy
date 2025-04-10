@@ -1,0 +1,61 @@
+'''
+1. Riconoscere numeri
+Obiettivo: Definire una RegEx che riconosca solo stringhe composte da cifre.
+
+Esercizio 1.1: Scrivi una RegEx che riconosca un numero intero positivo (es. 123, 98765).
+Esercizio 1.2: Modifica la RegEx per accettare anche numeri negativi (es. -45, -1000, 0).'''
+
+1.1 = \d+
+1.2 = -?\d+
+
+
+2. Riconoscere parole
+Obiettivo: Lavorare con lettere e lunghezze di stringhe.
+
+Esercizio 2.1: Scrivi una RegEx che riconosca una parola composta solo da lettere minuscole.
+Esercizio 2.2: Adatta la RegEx per accettare parole con lettere maiuscole e minuscole.
+Esercizio 2.3: Modifica la RegEx per accettare parole lunghe da 5 a 10 caratteri.
+
+2.1 = [a-z]+
+2.2 = [a-zA-Z]+
+2.3 = [\w]{5, 10}
+
+
+3. Email semplici
+Obiettivo: Definire pattern per email.
+
+Esercizio 3.1: Scrivi una RegEx che riconosca email del tipo nome@dominio.com.
+Esercizio 3.2: Estendi la RegEx per accettare anche domini con più estensioni, es. nome@dominio.co.uk.
+
+3.1 = \s+@\s+\.\s+
+3.2 = \s+@\s+\.\s+(\.\s+)+
+
+
+4. CAP e codici
+Obiettivo: Lavorare con lunghezze fisse e caratteri misti.
+
+Esercizio 4.1: Definisci una RegEx per un CAP italiano (esattamente 5 cifre).
+Esercizio 4.2: Scrivi una RegEx che riconosca un codice fiscale italiano semplificato: 6 lettere, 2 numeri, 1 lettera, 2 numeri.
+
+4.1 = \d{5}
+4.2 = \w{6}\d{2}\w{1}\d{2}
+
+
+5. Riconoscere date
+Obiettivo: Lavorare con formati numerici separati da caratteri speciali.
+
+Esercizio 5.1: Scrivi una RegEx che riconosca una data nel formato gg/mm/aaaa (es. 09/04/2025).
+Esercizio 5.2: Adatta la RegEx per accettare anche il formato gg-mm-aaaa.
+
+5.1 = [0-3][0-9]/[0-1][0-9]/[0-9]+
+5.2 = [0-3][0-9]\-[0-1][0-9]\-[0-9]+
+
+
+6. Codici personalizzati
+Obiettivo: Unire lettere, numeri e caratteri speciali.
+
+Esercizio 6.1: Scrivi una RegEx per identificare un codice prodotto nel formato PROD-1234-XY.
+Esercizio 6.2: Crea una RegEx per un ID alfanumerico di esattamente 8 caratteri, che può contenere 
+lettere maiuscole e numeri (es. AB12CD34).
+
+6.1 = [A-Z]\-[0-1]{4}\-[A-Z]{2}
