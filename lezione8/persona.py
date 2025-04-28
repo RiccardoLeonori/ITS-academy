@@ -59,3 +59,7 @@ class Persona:
     # funzione che mi consenta di ritornare il valore di self.age
     def getAge(self) -> int:
         return self.age
+    
+    #metodo speak() per la classe Persona che consente di simulare un saluto
+    def speak(self) -> None:
+        print(f"\nHello! My name is {self.getName()}!")
