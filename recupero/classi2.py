@@ -50,6 +50,7 @@ videonoleggio, altrimenti stampa il messaggio "Cliente non trovato." e ritorna u
 lista vuota.'''
 
 class Movie:
+
     def __init__(self, movie_id: str, title: str, director: str):
         self.movie_id = movie_id
         self.title = title
@@ -71,6 +72,7 @@ class Movie:
 
 
 class Customer:
+
     def __init__(self, customer_id: str, name: str):
         self.customer_id = customer_id
         self.name = name
@@ -127,3 +129,10 @@ class VideoRentalStore:
             return self.customers[customer_id].rented_movies
         else:
             print("Cliente non trovato.")
+
+    def get_all_movies(self) -> list[Movie]:
+
+        film_noleggiati: list[Movie] = []
+        for customer_id, customer in self.customers.items():
+            film_noleggiati += customer.rented_movies
+        return film_noleggiati
