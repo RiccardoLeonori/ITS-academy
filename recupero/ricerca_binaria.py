@@ -1,19 +1,23 @@
-def binary_search(sorted_list, target):
-    left = 0
-    right = len(sorted_list) - 1
-
-    while left <= right:
-        mid = (left + right) // 2
-        if sorted_list[mid] == target:
+def ricerca_binaria(lista, numero):
+    inizio = 0
+    fine = len(lista) - 1
+    
+    while inizio <= fine:
+        centro = (inizio + fine) // 2
+        
+        if lista[centro] == numero:
             return True
-        elif sorted_list[mid] < target:
-            left = mid + 1
+        elif numero < lista[centro]:
+            fine = centro - 1
         else:
-            right = mid - 1
-
+            inizio = centro + 1
+    
     return False
 
 
-nums = [1, 3, 5, 7, 9, 11]
-print(binary_search(nums, 7))
-print(binary_search(nums, 2))
+numeri = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+
+print(ricerca_binaria(numeri, 7))
+print(ricerca_binaria(numeri, 6))
+print(ricerca_binaria(numeri, 1))
+print(ricerca_binaria(numeri, 20))

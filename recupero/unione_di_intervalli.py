@@ -20,3 +20,36 @@ merge_intervals(intervals) # restituisce [[1, 6], [8, 10], [15,
 intervals = [[1, 4], [4, 5]]
 merge_intervals(intervals) # restituisce [[1, 5]]'''
 
+def merge_intervals(intervals):
+    if len(intervals) == 0:
+        return []
+    
+    intervals.sort()
+    risultato = [intervals[0]]
+    
+    for i in range(1, len(intervals)):
+        ultimo = risultato[-1]
+        corrente = intervals[i]
+        
+        if corrente[0] <= ultimo[1]:
+            ultimo[1] = max(ultimo[1], corrente[1])
+        else:
+            risultato.append(corrente)
+    
+    return risultato
+
+
+intervals = [[1, 3], [2, 6], [8, 10], [15, 18]]
+print(merge_intervals(intervals))
+
+intervals = [[1, 4], [4, 5]]
+print(merge_intervals(intervals))
+
+intervals = [[1, 4], [0, 2], [3, 5]]
+print(merge_intervals(intervals))
+
+intervals = []
+print(merge_intervals(intervals))
+
+intervals = [[5, 5]]
+print(merge_intervals(intervals))
