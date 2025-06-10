@@ -1,5 +1,6 @@
+import string
+
 def count_unique_words(text):
-    import string
     parole = {}
     
     tokens = text.split()
