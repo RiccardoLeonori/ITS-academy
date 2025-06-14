@@ -15,7 +15,7 @@ d) 5, 15, 25, 35, 45
 
 def comb(x, y, z):
     if x == True and y == True or z == True:
-            print("Azione permessa")
+        print("Azione permessa")
     else:
         print("Azione negata")
 
@@ -28,9 +28,10 @@ def molt(lista, threshold):
             prodotto *= numero
     return prodotto
 
+
 def factorial(n):
     if n == 0:
-        return factorial
+        return 1
     return n * factorial(n-1)
 
 
