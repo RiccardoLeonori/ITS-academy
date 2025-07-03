@@ -1,3 +1,6 @@
+#!/usr/local/bin/python
+
+
 class Alieno:
 
     '''
@@ -23,3 +26,7 @@ class Alieno:
 
     def __str__(self) -> str:
         return f"1\nAlieno proveniente dalla galassia {self.getGalaxy()}!\n"
+        
+        
+if __name__ == "__main__":
+    print("Test di alieno.py")
